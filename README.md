@@ -31,7 +31,20 @@
     * 如何在開發時將Node.js的runtime映射到外網 (連接到localhost:<port>)，而不需要雲端平台 => 使用ngrok or localtunnel
     * Node.js之父：Ryan Dahl
 
-## 其他
+## Docker
+	* Volume的使用時機 (若不用volume，對filesystem的修改是local to container)
+
+## AWS
+	* RDS (資料庫) 、S3 (CDN)
+
+## Git
+    * add / commit
+    * push / pull
+	* branch
+	* merge
+	* rebase
+
+## 知識
     * DevOps (開發與維護間的tradeoff)
     * 使用Redis的好處(key value pair)，Redis使用記憶體儲存，資料庫用硬碟儲存
     * 使用Redis實例: 短網址服務
@@ -42,24 +55,11 @@
     * 什麼是nginx(HTTP和反向代理伺服器)，和Apache有什麼不同，Node.js呢? (三者的區別是什麼？)
     * SSL (Secure Sockets Layer，傳輸層安全性協定)
 
-## Docker
-	* Volume的使用時機 (若不用volume，對filesystem的修改是local to container)
-
-## AWS
-	* RDS (資料庫) 、S3 (CDN)
-
-## git
-    * add / commit
-    * push / pull
-	* branch
-	* merge
-	* rebase
-
 ## 細節
-	* React在render時只能包一個，所以最好用<div></div>包起來
+	* react在render時只能包一個，所以最好用<div></div>包起來
 	* 利用chrome的react dev tool做debug(debugger; in react)
 	* static propTypes => props checking
-	* in webpack.config 加上 devtool: 'cheap-source-map'來map bundle和原始code，debug會更容易知道是哪行出錯
+	* In webpack.config 加上 devtool: 'cheap-source-map'來map bundle和原始code，debug會更容易知道是哪行出錯
 
 ## 求職
     * Backend TW
